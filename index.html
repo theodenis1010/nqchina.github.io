@@ -1,78 +1,99 @@
+<!DOCTYPE html>
 <html>
 <head>
 <!--en tete de la page-->
 <meta charset="utf-8">
 <title>NQ年轻群</title>
-<link rel="stylesheet" href="css.css">
 <style>
-    h1{
-    color:maroon;text-align:center;font-size: 50;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-shadow: 6px 6px 6px maroon;
-    border: 3px maroon solid;
-    text-shadow: 1px 3px 3px maroon;
-    border-radius:10px ;
-    }
-    body{
-        background-color:beige;
-        color: mediumaquamarine;
-    }
     .img{        
         margin: auto;
         display:block;
         width: 200px;
+        border-radius: 99px;
 
     }
-    p
-    {
+    .intro{
         font-size: 22;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        width: 95%;
-    }
+        text-shadow: 1px 1px 10px red;
+        padding: 1.5px;
+        color: whitesmoke;
+        border: 95%;
+        text-align: center;
 
-    .intro
-    {
-        background-color: white;
-        border: 6px  antiquewhite solid;
-        border-radius:10px ;
+    }
+    .head{
+        padding: 80px;
+        color: whitesmoke;
+        text-shadow: 1px 1px 10px red;
+        font-size: 25px;
+       
+         
+    }
+    button{
+        color: darksalmon;
+        display: flex;
+        margin: auto;
+    }
+    body{
+        background:linear-gradient(45deg,red,blue);
+        
+    }
+    .navar a{
+        color: whitesmoke;
+        text-decoration: none;
         padding: 10px;
+        text-shadow:1px 1px 10px red;
+        font-size: 25px;
+        height: 10px;
+        
     }
-    #bordure
-    {
-        border: 6px black solid;
+    .小角落{
+        text-align:end ;
+        font-size: 0.1%;
+        color: rgb(149, 15, 167);
     }
-    input:focus
-    {
-            background-color: #77FF88;
+    #a{
+        text-decoration: none;
     }
-    button
-    {
-        color: salmon;
-        margin:auto;
-        display:flex;
-    }
+   h1{
+    text-align: center;
+   }
 </style>
 </head>
 <body>
     <!--le corp de la page-->
+    
+    <div class="head">
+    <div class="navar a">
+    <a href="" class="center">主页</a>
+    <a href="">施工中</a>
+    <a href="">施工中</a>
+    </div>
     <h1>欢迎来到NQ年轻群的网站!</h1>
+    </div>
     <div class="intro">
-    <p>你们好这是我刚建立不久的网站,目前还有很多不完善的地方请大家请多指教</p>
+    <p>
+        你们好这是我刚建立不久的网站,目前还有很多不完善的地方请大家请多指教
+    </p>
     <p>
         虽然说只是一个开始但是之后的内容还是可以添加的,所以说大家要耐心一点.
     </p>
-    </div>
+  
+   
     <!--le lien avec une image-->
     <p>
     <a href="img/caigou.jpg" alt="菜狗" >
-    <img src="img/哈喽.jpg" class="img" id="bordure" alt="小人"  title="快点我看看"/>
+    <img src="img/哈喽.jpg" class="img"  alt="小人"  title="快点我看看"/>
     </a>
     </p>
-   
-    <div class="intro">
     <p>这个小人这么可爱要不要试试看点一下呢?</p>
-    <p>有什么问题可以从<a href="mailto:2151065587@qq.com">qq</a>问我哟</p>
+    <p>有什么问题可以从<a href="mailto:2151065587@qq.com">QQ</a>问我哟</p>
     
     </div>
     <p><button type="button" onclick="alert('欢迎━(*｀∀´*)ノ亻!')">点我有小惊喜</button></p>
+    <div class="小角落">     
+        <a href="https://theodenis1010.github.io/-nqchina2.github.io/" class="小角落" id="a">123456</a>
+    </div>
+    
 </body>
 </html>
